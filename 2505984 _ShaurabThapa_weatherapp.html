@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="2505984 _ShaurabThapa_weatherapp.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://openweathermap.org/img/wn/10d@2x.png">
+</head>
+
+<body>
+    <!-- for container -->
+    <div class="container">
+        <div class="search-box">
+            <i class='bx bx-map'></i>
+            <input type="text" placeholder="Enter your location">
+            <button class="bx bx-search"></button>
+        </div>
+
+        <!-- for city name -->
+        <div class="city-box">
+            <p class="city"></p>
+        </div>
+
+        <!-- for day and date -->
+        <div class="date-box">
+            <p class="day"></p>
+        </div>
+
+
+        <!-- for info box  -->
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather"></div>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png">
+                    <p class="temperature"><span>°C </span></p>
+                    <p class="description">Broken Clouds</p>
+                    <p class="date"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- for humidity info -->
+        <div class="weather-detail">
+            <div class="humidity">
+                <i class='bx bx-water'></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span>0%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class='bx bx-wind'></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span>0m/s</span>
+                    </div>
+                    <p class="windy">Wind</p>
+                    <div class="info-wind-deg">
+                        <p>↜↝</p>
+                        <span>200°</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pressure">
+                <i class='bx bx-bar-chart'></i>
+                <div class="text">
+                    <div class="info-pressure">
+                        <span>0hPa</span>
+                    </div>
+                    <p>Pressure</p>
+                </div>
+            </div>
+        </div>
+        <div class="not-found">
+            <i class='bx bx-error'></i>
+            <p>Ohh sorry!Location not found</p>
+        </div>
+    </div>
+    </div>
+
+    <script src="2505984 _ShaurabThapa_weatherapp.js"></script>
+</body>
+
+</html>
